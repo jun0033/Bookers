@@ -7,46 +7,15 @@ body {
   margin: 33px;
 }
 
-p {
-  font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
-  margin: 33px;
-}
-
-table {
-    display: table;
-    border-collapse: separate;
-    box-sizing: border-box;
-    text-indent: initial;
-    border-spacing: 2px;
-    border-color: gray;
-}
-
 th {
-    display: table-cell;
-    vertical-align: inherit;
-    font-weight: bold;
-    text-align: center;
     padding-bottom: 5px
 }
 
-thead {
-    display: table-header-group;
-    vertical-align: middle;
-    border-color: inherit;
-}
-
-tbody {
-    display: table-row-group;
-    vertical-align: middle;
-    border-color: inherit;
-}
-
-tr {
-    display: table-row;
-    vertical-align: inherit;
-    border-color: inherit;
+p, ol, ul, td {
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 33px;
 }
 
 td {
@@ -55,26 +24,22 @@ td {
     padding-right: 5px;
 }
 
+a {
+    color: #000;
+}
+
 div.field, div.actions {
     margin-bottom: 10px;
 }
 
-input[type="submit" i] {
-    appearance: auto;
-    user-select: none;
-    white-space: pre;
-    align-items: flex-start;
-    text-align: center;
-    cursor: default;
-    box-sizing: border-box;
-    background-color: buttonface;
-    color: buttontext;
-    padding: 1px 6px;
-    border-width: 2px;
-    border-style: outset;
-    border-color: buttonborder;
-    border-image: initial;
+label {
+    display: block;
 }
+
+a:visited {
+    color: #666;
+}
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
